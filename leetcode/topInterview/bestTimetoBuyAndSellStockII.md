@@ -2,7 +2,7 @@
 
 Link: [Best Time to Buy and Sell Stock II](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/)
 
-Difficulty: Easy
+Difficulty: Medium
 
 ## The Ask
 
