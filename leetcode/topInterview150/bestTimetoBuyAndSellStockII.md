@@ -1,6 +1,6 @@
 # Best Time to Buy and Sell Stock II
 
-Link: [Best Time to Buy and Sell Stock II](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/)
+Link: [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/?envType=study-plan-v2&envId=top-interview-150)
 
 Difficulty: Medium
 
