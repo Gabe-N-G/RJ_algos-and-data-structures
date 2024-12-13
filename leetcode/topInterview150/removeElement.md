@@ -49,7 +49,7 @@ Note that the order of these elements can be arbitrary.
  * @return {number}
  */
 var removeElement = function (nums, val) {
-  // code goes here
+  // Code goes here
 };
 ```
 
@@ -79,8 +79,8 @@ We need to modify the array in-place, removing all occurrences of `val` while ke
 
 ### Algorithm Complexity:
 
-- **Time Complexity:** \( O(n) \)  
-  We traverse the array once, where \( n \) is the size of the array.
+- **Time Complexity:** `O(n)`  
+  We traverse the array once, where `n` is the size of the array.
 
-- **Space Complexity:** \( O(1) \)  
+- **Space Complexity:** `O(1)`  
   We use constant extra space, modifying the array in-place.

@@ -1,11 +1,10 @@
-// Optimal Solution:
-
+// OPTIMAL SOLUTION:
 /**
  * @param {number[]} prices
  * @return {number}
  */
 
-var maxProfit = function (prices) {
+const maxProfit = function (prices) {
   let maxProfit = 0; // Initialize profit to 0
 
   // Traverse the prices array

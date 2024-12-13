@@ -3,7 +3,7 @@
  * @param {number} val
  * @return {number}
  */
-var removeElement = function (nums, val) {
+const removeElement = function (nums, val) {
   let slow = 0; // Pointer to track the position of the next non-val element
 
   // Iterate through the array

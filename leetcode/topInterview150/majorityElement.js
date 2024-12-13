@@ -9,7 +9,7 @@
 //   }
 // };
 
-// Approach 2 (Optimal): Boyer-Moore Voting Algorithm
+// Approach 2: OPTIMAL SOLUTION - Boyer-Moore Voting Algorithm
 /**
  * @param {number[]} nums
  * @return {number}

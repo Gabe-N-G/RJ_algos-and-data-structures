@@ -19,7 +19,7 @@ Find and return the **maximum profit** you can achieve.
 ```javascript
 Input: prices = [7,1,5,3,6,4]
 Output: 7
-Explanation: 
+Explanation:
 Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5 - 1 = 4.
 Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6 - 3 = 3.
 Total profit is 4 + 3 = 7.
@@ -30,7 +30,7 @@ Total profit is 4 + 3 = 7.
 ```javascript
 Input: prices = [1,2,3,4,5]
 Output: 4
-Explanation: 
+Explanation:
 Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5 - 1 = 4.
 Total profit is 4.
 ```
@@ -40,7 +40,7 @@ Total profit is 4.
 ```javascript
 Input: prices = [7,6,4,3,1]
 Output: 0
-Explanation: 
+Explanation:
 There is no way to make a positive profit, so we never buy the stock to achieve the maximum profit of 0.
 ```
 
@@ -51,8 +51,8 @@ There is no way to make a positive profit, so we never buy the stock to achieve 
  * @param {number[]} prices
  * @return {number}
  */
-var maxProfit = function(prices) {
-    // code goes here
+var maxProfit = function (prices) {
+  // Code goes here
 };
 ```
 
@@ -61,6 +61,7 @@ var maxProfit = function(prices) {
 To solve this problem, we need to simulate a sequence of stock trades where we "buy low and sell high" repeatedly.
 
 ### Key Observations:
+
 1. We can achieve maximum profit by **adding all the positive differences** between consecutive days. If `prices[i] < prices[i+1]`, then buying on day `i` and selling on day `i+1` will contribute to the profit.
 2. If `prices[i] >= prices[i+1]`, we do nothing (no profit can be gained).
 3. The problem does not require us to explicitly track buy/sell operations, so we can compute the result in a single pass.
@@ -68,6 +69,7 @@ To solve this problem, we need to simulate a sequence of stock trades where we "
 ---
 
 ### Steps:
+
 1. Initialize a variable `maxProfit` to store the accumulated profit.
 2. Traverse the array `prices`:
    - If `prices[i] < prices[i+1]`, add the difference `prices[i+1] - prices[i]` to `maxProfit`.
@@ -77,8 +79,9 @@ To solve this problem, we need to simulate a sequence of stock trades where we "
 ---
 
 ### Algorithm Complexity:
-- **Time Complexity:** \( O(n) \)  
+
+- **Time Complexity:** `O(n)`  
   We traverse the array once.
 
-- **Space Complexity:** \( O(1) \)  
+- **Space Complexity:** `O(1)`  
   No additional space is used; all operations are done in-place.

@@ -46,7 +46,7 @@ Explanation: The last word is "joyboy" with length 6.
  * @return {number}
  */
 var lengthOfLastWord = function (s) {
-  // code goes here
+  // Code goes here
 };
 ```
 
@@ -81,14 +81,14 @@ To achieve \( O(1) \) space complexity, avoid splitting the string and instead t
 
 #### Split Method:
 
-- **Time Complexity:** \( O(n) \)  
+- **Time Complexity:** `O(n)`  
   Splitting the string and accessing the last word.
-- **Space Complexity:** \( O(n) \)  
+- **Space Complexity:** `O(n)`  
   Space required for the split array.
 
 #### Optimal Solution (Traverse Backwards):
 
-- **Time Complexity:** \( O(n) \)  
+- **Time Complexity:** `O(n)`  
   Single traversal of the string.
-- **Space Complexity:** \( O(1) \)  
+- **Space Complexity:** `O(1)`  
   No additional space used.

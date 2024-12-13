@@ -6,7 +6,7 @@
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 
-var merge = function (nums1, m, nums2, n) {
+const merge = function (nums1, m, nums2, n) {
   // Pointers (3 total)
   let p1 = m - 1; // Pointer for the last valid element in nums1 (non-zero values)
   let p2 = n - 1; // Pointer for the last element in nums2

@@ -3,7 +3,7 @@
  * @return {number}
  */
 
-var removeDuplicates = function (nums) {
+const removeDuplicates = function (nums) {
   // If the array is empty or has only one element, it's already unique.
   if (nums.length === 0) return 0;
 

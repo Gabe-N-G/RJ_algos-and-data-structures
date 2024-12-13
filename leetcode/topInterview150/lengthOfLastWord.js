@@ -14,7 +14,7 @@
 //   return stringArr[stringArr.length - 1].length;
 // };
 
-// Approach 2: Optimal Solution (Traverse Backwards), using while loop
+// Approach 2: OPTIMAL SOLUTION (Traverse Backwards), using while loop
 /**
  * @param {string} s
  * @return {number}
@@ -37,7 +37,7 @@ const lengthOfLastWord = function (s) {
   return length; // Return the length of the last word
 };
 
-// Approach 2: Optimal Solution (Traverse Backwards), using for loop
+// Approach 2: OPTIMAL SOLUTION (Traverse Backwards), using for loop
 // const lengthOfLastWord = function (s) {
 //   let count = 0;
 

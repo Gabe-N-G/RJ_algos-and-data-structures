@@ -42,7 +42,7 @@ rotate 2 steps to the right: [3,99,-1,-100]
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var rotate = function (nums, k) {
-  // code goes here
+  // Code goes here
 };
 ```
 
@@ -70,13 +70,13 @@ This problem can be solved efficiently in-place using the **reverse approach**. 
 2. Reverse the entire array.
 3. Reverse the first `k` elements.
 4. Reverse the last `n - k` elements.
-5. The array is now rotated **in-place** with \( O(1) \) space complexity.
+5. The array is now rotated **in-place** with `O(1)` space complexity.
 
 ---
 
 ### Algorithm Complexity:
 
-- **Time Complexity:** \( O(n) \)  
-  Reversing the entire array and two subarrays takes \( O(n) \).
-- **Space Complexity:** \( O(1) \)  
+- **Time Complexity:** `O(n)`  
+  Reversing the entire array and two subarrays takes `O(n)`.
+- **Space Complexity:** `O(1)`  
   No extra space is used; all operations are done in-place.

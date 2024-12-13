@@ -66,7 +66,7 @@ Explanation: (M = 1000), (CM = 900), (XC = 90), (IV = 4);
  * @return {number}
  */
 var romanToInt = function (s) {
-  // code goes here
+  // Code goes here
 };
 ```
 
@@ -99,8 +99,8 @@ This problem can be solved efficiently using a **greedy traversal approach**. He
 
 ### Algorithm Complexity:
 
-- **Time Complexity:** \( O(n) \)  
-  We traverse the string `s` of length \( n \) once.
+- **Time Complexity:** `O(n)`  
+  We traverse the string `s` of length `n` once.
 
-- **Space Complexity:** \( O(1) \)  
+- **Space Complexity:** `O(1)`  
   The mapping object is constant in size since it contains only the seven Roman numeral symbols.

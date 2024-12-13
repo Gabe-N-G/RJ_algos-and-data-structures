@@ -53,7 +53,7 @@ The result of the merge is [1].
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 var merge = function (nums1, m, nums2, n) {
-  // insert code here
+  // Code goes here
 };
 ```
 
@@ -99,8 +99,8 @@ The idea is to merge from the back of the arrays:
 ---
 
 ### Algorithm Complexity:
-- **Time Complexity:** \( O(m + n) \)  
+- **Time Complexity:** `O(m + n)`  
   We traverse both arrays once.
 
-- **Space Complexity:** \( O(1) \)  
+- **Space Complexity:** `O(1)`  
   No extra space is used; everything is done in-place.

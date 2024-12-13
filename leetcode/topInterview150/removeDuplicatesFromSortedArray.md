@@ -107,5 +107,5 @@ Essentially, once an element is encountered, you simply need to bypass its dupli
 
 ### Time Complexity:
 
-- Traversing the array once: \( O(n) \).
-- Space complexity is \( O(1) \), as we're modifying the array in-place.
+- Traversing the array once: `O(n)`.
+- Space complexity is `O(1)`, as we're modifying the array in-place.
