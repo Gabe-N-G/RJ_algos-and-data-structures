@@ -7,10 +7,11 @@ const canJump = function (nums) {
   let maxReach = 0; // Farthest index we can reach
 
   for (let i = 0; i < nums.length; i++) {
-    if (i > maxReach) {
-      return false; // If current index is beyond maxReach, we are stuck
-    }
+    if (i > maxReach) return false; // If current index is beyond maxReach, we are stuck
+
     maxReach = Math.max(maxReach, i + nums[i]); // Update maxReach
+
+    if (maxReach >= nums.length - 1) return true; // Early exit if we can reach the end (this line is optional)
   }
 
   return true; // If we complete the loop, we can reach the last index
