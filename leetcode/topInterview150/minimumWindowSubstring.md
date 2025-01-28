@@ -2,7 +2,7 @@
 
 **Link:** [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/?envType=study-plan-v2&envId=top-interview-150)
 
-**Difficulty:** Hard
+Difficulty: Hard
 
 ## The Ask
 
